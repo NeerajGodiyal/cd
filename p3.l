@@ -9,7 +9,7 @@ DIGIT [0-9]
 {DIGIT}*?\.{DIGIT}* {ECHO;printf(" is a Float Number\n");}
 %%
 
-yywrap(){}
+int yywrap(){}
 int main(int argc, char const *argv[])
 {
     yylex();

@@ -12,7 +12,7 @@ emptyline [\n]
 [$] return 0;
 %%
 
-yywrap(){}
+int yywrap(){}
 int main(int argc, char *argv[])
 {
 extern FILE *yyin;

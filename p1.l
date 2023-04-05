@@ -13,7 +13,7 @@
 END return 0;
 %%
 
-yywrap(){ }
+int yywrap(){ }
 int main(int argc , int *argv)
 {
    

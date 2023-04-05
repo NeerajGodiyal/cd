@@ -15,7 +15,7 @@ notid ({digit}{letter}+)|({digit})+
 {notid} {printf("%s is not a identifier\n",yytext);}
 [$] return 0;
 %%
-yywrap(){}
+int yywrap(){}
 int main(int argc,char *argv[])
 {
 yylex();

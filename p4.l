@@ -27,7 +27,7 @@ LOPERATORS"&"|"|"|"&&"|"||"|"~"|">"|"<"|">="|"<+"|"=="
 -?[0-9]+ {n++;printf("Integer: %s\n",yytext);}
 [$] return 0;
 %%
-yywrap(){}
+int yywrap(){}
 main()
 {
 yylex();
